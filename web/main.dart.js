@@ -27459,7 +27459,7 @@ ane:function ane(a){this.b=a},
 yS:function yS(){},
 a1G:function a1G(a){this.b=a},
 azY(){var s=t.N
-return new A.a1K(A.x(["type","app"],s,t.z),[A.x(["title","\u4eba\u6c14\u699c","url","https://api.97yd.com/top?&bid=1&type=0&page={{page-1}}"],s,s),A.x(["title","\u597d\u8bc4\u699c","url","https://api.97yd.com/top?&bid=1&type=1&page={{page-1}}"],s,s),A.x(["title","\u5b8c\u7ed3\u699c","url","https://api.97yd.com/top?&bid=1&type=2&page={{page-1}}"],s,s),A.x(["title","\u65b0\u4e66\u699c","url","https://api.97yd.com/top?&bid=1&type=3&page={{page-1}}"],s,s),A.x(["title","\u70ed\u641c\u699c","url","https://api.97yd.com/top?&bid=1&type=4&page={{page-1}}"],s,s),A.x(["title","\u63a8\u8350\u699c","url","https://api.97yd.com/top?&bid=1&type=5&page={{page-1}}"],s,s)])},
+return new A.a1K(A.x(["type","app"],s,t.z),[A.x(["title","\u4eba\u6c14\u699c","url","https://api.97yd.com/top?&bid=1&type=0&page={{page-1}}","webUrl","https://raw.githubusercontent.com/Courser123/database/main/Api97Yd/\u4eba\u6c14\u699c/1.json"],s,s),A.x(["title","\u597d\u8bc4\u699c","url","https://api.97yd.com/top?&bid=1&type=1&page={{page-1}}","webUrl","https://raw.githubusercontent.com/Courser123/database/main/Api97Yd/\u597d\u8bc4\u699c/1.json"],s,s),A.x(["title","\u5b8c\u7ed3\u699c","url","https://api.97yd.com/top?&bid=1&type=2&page={{page-1}}","webUrl","https://raw.githubusercontent.com/Courser123/database/main/Api97Yd/\u5b8c\u7ed3\u699c/1.json"],s,s),A.x(["title","\u65b0\u4e66\u699c","url","https://api.97yd.com/top?&bid=1&type=3&page={{page-1}}","webUrl","https://raw.githubusercontent.com/Courser123/database/main/Api97Yd/\u65b0\u4e66\u699c/1.json"],s,s),A.x(["title","\u70ed\u641c\u699c","url","https://api.97yd.com/top?&bid=1&type=4&page={{page-1}}","webUrl","https://raw.githubusercontent.com/Courser123/database/main/Api97Yd/\u70ed\u641c\u699c/1.json"],s,s),A.x(["title","\u63a8\u8350\u699c","url","https://api.97yd.com/top?&bid=1&type=5&page={{page-1}}","webUrl","https://raw.githubusercontent.com/Courser123/database/main/Api97Yd/\u63a8\u8350\u699c/1.json"],s,s)])},
 a1K:function a1K(a,b){this.b=a
 this.c=b},
 a1L:function a1L(a){this.a=a},
@@ -91242,7 +91242,7 @@ A.a1K.prototype={
 ih(){var s=0,r=A.u(t.f),q,p=this,o,n,m,l,k,j,i,h,g,f,e
 var $async$ih=A.o(function(a,b){if(a===1)return A.q(b,r)
 while(true)switch(s){case 0:e=A.a([],t.RD)
-for(o=p.c,n=t.z,m=0;m<6;++m)e.push(A.xQ(new A.a1L(p),o[m].h(0,"url"),null,n,n))
+for(o=p.c,n=t.z,m=0;m<6;++m)e.push(A.xQ(new A.a1L(p),o[m].h(0,"webUrl"),null,n,n))
 l=[]
 k=[]
 j=[]
@@ -91264,7 +91264,7 @@ return A.t($async$ih,r)},
 xp(a){return this.ax0(a)},
 ax0(a2){var s=0,r=A.u(t.j),q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1
 var $async$xp=A.o(function(a3,a4){if(a3===1)return A.q(a4,r)
-while(true)switch(s){case 0:B.c.xl(a2,"{{page-1}}","1")
+while(true)switch(s){case 0:a2=B.c.xl(a2,"{{page-1}}","1")
 p=$.aU
 if(p==null)p=$.aU=A.ch()
 o=t.z
@@ -91273,7 +91273,7 @@ a=J
 a0=J
 a1=B.aV
 s=3
-return A.w(p.N7("https://raw.githubusercontent.com/Courser123/novel/main/json/1.json",o),$async$xp)
+return A.w(p.N7(a2,o),$async$xp)
 case 3:p=a.ay(a0.ax(a1.f6(0,a4.a),"data")),m=t.N
 case 4:if(!p.v()){s=5
 break}l=p.gH(p)
@@ -91305,7 +91305,7 @@ m=t.N
 l=A
 k=A
 s=3
-return A.w(p.xp(B.c.xl(p.c[o].h(0,"url"),"{{page-1}}",A.c(n))),$async$CX)
+return A.w(p.xp(B.c.xl(p.c[o].h(0,"webUrl"),"{{page-1}}",A.c(n))),$async$CX)
 case 3:q=l.x(["data",k.x(["data",c],m,t.j)],m,t.z)
 s=1
 break
